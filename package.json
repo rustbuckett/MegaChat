@@ -1,0 +1,15 @@
+{
+  "name": "electron-telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "downtime",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^28.0.0"
+  }
+}
