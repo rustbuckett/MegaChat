@@ -31,6 +31,7 @@ function createWindow() {
                 { label: 'Matrix', click: () => loadMatrix() },
                 { label: 'Lemmy', click: () => loadLemmy() },
                 { label: 'Mastodon', click: () => loadMastodon() },
+                { label: 'Notion', click: () => loadNotion() },
                 { label: 'Quit', click: () => app.quit() }
             ]
         }
@@ -76,6 +77,10 @@ function loadLemmy() {
 
 function loadMastodon() {
     mainWindow.loadURL('https://mastodon.social/home')
+};
+
+function loadNotion() {
+    mainWindow.loadURL('https://notion.so')
 };
 
 function createTray() {
